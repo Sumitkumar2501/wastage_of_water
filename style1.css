@@ -1,0 +1,129 @@
+/* CSS to style the text and image layout */
+.container {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+  }
+  
+  .text-section {
+    flex: 1; /* Take up remaining space */
+    max-width: calc(100% - 220px); /* Adjusted width to accommodate image width and margin */
+  }
+  
+  .image-section {
+    flex: 0 0 auto; /* Do not grow, do not shrink, and use auto width */
+    margin-left: 40px; /* Adjust spacing between text and image */
+    margin-top: 100px;
+  }
+  
+  .image-section img {
+    width: 450px; /* Adjust the width of the image as needed */
+    border-radius: 20px; /* Optional: Adds rounded corners to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+  }
+  .text-section  h1{
+    font-size: 40px; /* Adjust the font size as needed */
+  }
+  
+  .text-section  {
+    font-size: 25px; /* Adjust the font size as needed */
+  }
+  .key{
+    text-align: center;
+    color: rgb(4, 3, 3);
+  }
+  .facts{
+    display: inline-block; /* Display text elements inline */
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+    color: rgb(4, 3, 3);
+  }
+  .info-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+    background-color:rgb(235, 118, 40);
+    width: 1400px;
+    height: 400px;
+}
+
+.info-box .summary {
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+.info-box .details {
+    display: none;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.info-box .show-details {
+    cursor: pointer;
+    color: blue;
+}
+.info-box1 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 1400px;
+    background-color: #f9f9f9;
+    right: auto;
+  
+    height: 400px;
+}
+
+.info-box1 .summary {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.info-box1 .details {
+    display: none;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.info-box1 .show-details1 {
+    cursor: pointer;
+    color: blue;
+}
+.common{
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  position: relative;
+}
+.info-box2 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 1400px;
+  background-color: #f9f9f9;
+  right: auto;
+  background-color:rgb(50, 205, 99) ;
+  height: 400px;
+}
+
+.info-box2 .summary {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.info-box2 .details {
+  display: none;
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.info-box2 .show-details2 {
+  cursor: pointer;
+  color: blue;
+}
+.main{
+  background-color: rgb(187, 186, 186);
+}
